@@ -24,7 +24,7 @@ for creating AZURE resources, and you can customize the inputs as needed. Below 
 
 ```hcl
 module "app-service" {
-  source              = "git::https://github.com/yadavprakash/terraform-azure-app-service.git?ref=v1.0.0"
+  source              = "git::https://github.com/yadavprakash/terraform-azure-app-service.git"
   enabled             = true
   name                = "app"
   environment         = "teting"
